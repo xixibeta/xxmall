@@ -1,2 +1,19 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<!-- 1.轮播图 -->
+<x-swiper list="{{banners}}"/>
+
+<!-- 2.推荐 -->
+<x-recommend recommends="{{recommends}}"/>
+
+<!-- 3.流行 -->
+<x-popular/>
+
+<!-- 4.tab-control -->
+<x-tab-control titles="{{titles}}"
+                bind:itemclick="handleTabClick"/>
+
+<!-- 5.展示商品数据 -->
+<x-goods goods="{{goods[currentType].list}}"></x-goods>
+
+<!-- 6.back to top -->
+<x-back-top/>

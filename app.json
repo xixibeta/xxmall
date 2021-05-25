@@ -35,10 +35,8 @@
   ]
   },
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "xxmall",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle":"white"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
